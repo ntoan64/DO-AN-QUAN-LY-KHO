@@ -1,0 +1,240 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"] - WMS Dashboard</title>
+
+    <!-- Tailwind + Lucide -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        body {
+            background: #0f172a;
+            color: #f1f5f9;
+        }
+
+        .sidebar {
+            background: #0f172a;
+            border-right: 1px solid #1e293b;
+            transition: all .3s;
+        }
+
+            .sidebar.expanded {
+                width: 256px;
+            }
+
+            .sidebar.collapsed {
+                width: 80px;
+            }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 16px;
+            border-radius: 8px;
+            color: #94a3b8;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+            .nav-item:hover {
+                background: #1e293b;
+                color: #fff;
+            }
+
+            .nav-item.active {
+                background: #2563eb;
+                color: #fff;
+            }
+
+        .icon-box {
+            width: 48px;
+            height: 48px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+
+            .icon-box.blue {
+                background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+            }
+
+        .header {
+            background: #0f172a;
+            border-bottom: 1px solid #1e293b;
+            padding: 16px 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+        }
+
+        .main-content {
+            padding: 32px;
+            overflow-y: auto;
+            height: calc(100vh - 73px);
+        }
+
+        .toggle-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 8px;
+            color: #94a3b8;
+        }
+
+            .toggle-btn:hover {
+                background: #1e293b;
+                color: #fff;
+            }
+    </style>
+
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+    <div class="flex h-screen">
+        <!-- SIDEBAR -->
+        <aside id="sidebar" class="sidebar expanded flex flex-col">
+            <!-- Logo -->
+            <div class="p-6 border-b border-slate-800 flex items-center gap-3">
+                <div class="icon-box blue !w-10 !h-10">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                    </svg>
+                </div>
+                <span id="logo-text" class="font-bold text-lg text-white">WMS</span>
+            </div>
+
+            <!-- NAV -->
+            <nav class="flex-1 p-4 flex flex-col gap-2">
+                <a href="/Home/Index" class="nav-item @(ViewBag.ActiveMenu=="Dashboard"?"active":"")">
+                    <i data-lucide="activity" class="w-5 h-5"></i><span class="nav-label">Dashboard</span>
+                </a>
+                <a href="/Receiving/Index" class="nav-item @(ViewBag.ActiveMenu=="Receiving"?"active":"")">
+                    <i data-lucide="file" class="w-5 h-5"></i><span class="nav-label">Receiving</span>
+                </a>
+                <a href="/Assembly/Index" class="nav-item @(ViewBag.ActiveMenu=="Assembly"?"active":"")">
+                    <i data-lucide="package" class="w-5 h-5"></i><span class="nav-label">Assembly</span>
+                </a>
+                <a href="/Picking/Index" class="nav-item @(ViewBag.ActiveMenu=="Picking"?"active":"")">
+                    <i data-lucide="shopping-cart" class="w-5 h-5"></i><span class="nav-label">Picking</span>
+                </a>
+                <a href="/Inventory/Index" class="nav-item @(ViewBag.ActiveMenu=="Inventory"?"active":"")">
+                    <i data-lucide="bar-chart-2" class="w-5 h-5"></i><span class="nav-label">Inventory</span>
+                </a>
+                <a href="/Labor/Index" class="nav-item @(ViewBag.ActiveMenu=="Labor"?"active":"")">
+                    <i data-lucide="users" class="w-5 h-5"></i><span class="nav-label">Labor</span>
+                </a>
+
+                <!-- 🧩 Thêm các module còn thiếu -->
+                <a href="/Qa/Index" class="nav-item @(ViewBag.ActiveMenu=="QA"?"active":"")">
+                    <i data-lucide="beaker" class="w-5 h-5"></i><span class="nav-label">QA</span>
+                </a>
+                <a href="/PutAway/Index" class="nav-item @(ViewBag.ActiveMenu=="PutAway"?"active":"")">
+                    <i data-lucide="download" class="w-5 h-5"></i><span class="nav-label">PutAway</span>
+                </a>
+                <a href="/Replenishment/Index" class="nav-item @(ViewBag.ActiveMenu=="Replenishment"?"active":"")">
+                    <i data-lucide="refresh-cw" class="w-5 h-5"></i><span class="nav-label">Replenishment</span>
+                </a>
+                <a href="/SmartSlotting/Index" class="nav-item @(ViewBag.ActiveMenu=="SmartSlotting"?"active":"")">
+                    <i data-lucide="target" class="w-5 h-5"></i><span class="nav-label">SmartSlotting</span>
+                </a>
+            </nav>
+
+            <!-- Bottom -->
+            <div class="p-4 border-t border-slate-800 flex flex-col gap-2">
+                <a href="/Account/Logout" class="nav-item">
+                    <i data-lucide="log-out" class="w-5 h-5"></i><span class="nav-label">Logout</span>
+                </a>
+            </div>
+        </aside>
+
+        <!-- RIGHT -->
+        <div class="flex-1 flex flex-col overflow-hidden">
+            <!-- Header -->
+            <header class="header">
+                <div class="flex items-center gap-4">
+                    <button id="toggle-sidebar" class="toggle-btn" title="Toggle sidebar">
+                        <svg id="menu-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                    </button>
+                    <h1 class="text-white text-2xl font-bold">@ViewBag.PageTitle</h1>
+                </div>
+
+                @{
+                    var u = HttpContextAccessor.HttpContext?.Session.GetString("Username");
+                    var r = HttpContextAccessor.HttpContext?.Session.GetString("Role");
+                }
+                <div class="flex items-center gap-3">
+                    @if (!string.IsNullOrEmpty(u))
+                    {
+                        <div class="text-right">
+                            <p class="text-sm text-white font-semibold">@u</p>
+                            <p class="text-xs text-slate-400">@r</p>
+                        </div>
+                        <div class="user-avatar"></div>
+                    }
+                    else
+                    {
+                        <a href="/Account/Login" class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded-md text-sm font-medium transition">
+                            <i data-lucide="log-in" class="w-4 h-4"></i> Login
+                        </a>
+                    }
+                </div>
+            </header>
+
+            <!-- Main content -->
+            <main class="main-content">
+                @RenderBody()
+            </main>
+
+            <footer class="text-center text-xs text-slate-500 py-4">
+                © @DateTime.Now.Year - Warehouse Management System (WMS Project)
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        window.lucide && lucide.createIcons();
+
+        const toggleBtn = document.getElementById('toggle-sidebar');
+        const sidebar = document.getElementById('sidebar');
+        const logoText = document.getElementById('logo-text');
+        const navLabels = document.querySelectorAll('.nav-label');
+        const menuIcon = document.getElementById('menu-icon');
+
+        toggleBtn?.addEventListener('click', () => {
+            sidebar.classList.toggle('expanded');
+            sidebar.classList.toggle('collapsed');
+
+            const collapsed = sidebar.classList.contains('collapsed');
+            logoText.style.display = collapsed ? 'none' : 'inline';
+            navLabels.forEach(lb => lb.style.display = collapsed ? 'none' : 'inline');
+
+            menuIcon.innerHTML = collapsed
+                ? '<line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline>'
+                : '<line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line>';
+        });
+    </script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

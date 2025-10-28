@@ -1,0 +1,86 @@
+﻿@model List<QuanLyKho.WebUI.Models.QARecordViewModel>
+@{
+    ViewBag.Title = "QA List";
+    ViewBag.PageTitle = "🧪 Danh sách kiểm tra chất lượng (QA)";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<div class="flex justify-between items-center mb-6">
+    <h2 class="text-xl font-semibold text-white">
+        @ViewBag.PageTitle
+        @if (ViewBag.ReceivingID != null)
+        {
+            <span class="text-slate-400 ml-2">– Phiếu nhập #@ViewBag.ReceivingID</span>
+        }
+    </h2>
+
+    @if (ViewBag.ReceivingID != null)
+    {
+        <a href="/Qa/Create?receivingId=@ViewBag.ReceivingID"
+           class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition">
+            <i data-lucide="plus-circle" class="w-4 h-4"></i> Thêm QA
+        </a>
+    }
+</div>
+
+<div class="overflow-x-auto border border-slate-700 rounded-lg shadow">
+    <table class="min-w-full text-sm text-slate-300">
+        <thead class="bg-slate-800 text-slate-200">
+            <tr>
+                <th class="px-3 py-2 text-left">QAID</th>
+                <th class="px-3 py-2 text-center">ReceivingID</th>
+                <th class="px-3 py-2 text-center">LineID</th>
+                <th class="px-3 py-2 text-left">SKU</th>
+                <th class="px-3 py-2 text-center">Ngày kiểm</th>
+                <th class="px-3 py-2 text-left">Người kiểm</th>
+                <th class="px-3 py-2 text-center">Kết quả</th>
+                <th class="px-3 py-2 text-center">Trạng thái</th>
+                <th class="px-3 py-2 text-left">Ghi chú</th>
+                <th class="px-3 py-2 text-center">Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Count > 0)
+            {
+                foreach (var x in Model)
+                {
+                    <tr class="hover:bg-slate-800/60 transition">
+                        <td class="px-3 py-2">@x.QAID</td>
+                        <td class="px-3 py-2 text-center">@x.ReceivingID</td>
+                        <td class="px-3 py-2 text-center">@x.LineID</td>
+                        <td class="px-3 py-2">@x.SKU</td>
+                        <td class="px-3 py-2 text-center">@x.CheckDate.ToString("dd/MM/yyyy HH:mm")</td>
+                        <td class="px-3 py-2">@x.Inspector</td>
+                        <td class="px-3 py-2 text-center">@x.Result</td>
+                        <td class="px-3 py-2 text-center">@x.Status</td>
+                        <td class="px-3 py-2">@x.Notes</td>
+                        <td class="px-3 py-2 text-center space-x-2">
+                            <a href="/Qa/Details/@x.QAID" class="text-blue-400 hover:text-blue-300"><i data-lucide="eye" class="w-4 h-4 inline"></i></a>
+                            <a href="/Qa/Edit/@x.QAID" class="text-yellow-400 hover:text-yellow-300"><i data-lucide="edit" class="w-4 h-4 inline"></i></a>
+                            <a href="/Qa/Delete/@x.QAID?receivingId=@x.ReceivingID" class="text-red-400 hover:text-red-300" onclick="return confirm('Xóa QA record này?')"><i data-lucide="trash-2" class="w-4 h-4 inline"></i></a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr><td colspan="10" class="text-center py-4 text-slate-400">Không có dữ liệu QA.</td></tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="mt-6">
+    @if (ViewBag.ReceivingID != null)
+    {
+        <a href="/Receiving/Details/@ViewBag.ReceivingID" class="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300">
+            <i data-lucide="arrow-left" class="w-4 h-4"></i> Quay lại phiếu nhập
+        </a>
+    }
+    else
+    {
+        <a href="/Receiving/Index" class="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300">
+            <i data-lucide="arrow-left" class="w-4 h-4"></i> Về danh sách Receiving
+        </a>
+    }
+</div>

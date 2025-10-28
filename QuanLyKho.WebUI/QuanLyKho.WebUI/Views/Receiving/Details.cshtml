@@ -1,0 +1,71 @@
+﻿@model List<QuanLyKho.WebUI.Models.ReceivingLineViewModel>
+@{
+    ViewBag.Title = "Chi tiết phiếu nhập";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<div class="p-6 space-y-6">
+    <div class="flex items-center justify-between">
+        <h2 class="text-2xl font-semibold text-white flex items-center gap-2">
+            <i data-lucide="file-text" class="w-6 h-6 text-blue-400"></i>
+            Chi tiết phiếu nhập #@ViewBag.ReceivingID
+        </h2>
+
+        <div class="flex gap-3">
+            <a href="/Receiving/AddLine?receivingID=@ViewBag.ReceivingID" class="btn-blue"><i data-lucide="plus" class="w-5 h-5"></i> Thêm dòng hàng</a>
+            <a href="/Receiving/Index" class="btn-gray">⬅ Quay lại danh sách</a>
+        </div>
+    </div>
+
+    <div class="overflow-x-auto rounded-lg border border-slate-700 shadow">
+        <table class="min-w-full border-collapse text-sm text-slate-300">
+            <thead class="bg-slate-800 text-slate-100">
+                <tr>
+                    <th class="px-4 py-3 text-left border-b border-slate-700">Mã dòng</th>
+                    <th class="px-4 py-3 text-left border-b border-slate-700">SKU</th>
+                    <th class="px-4 py-3 text-left border-b border-slate-700">Tên sản phẩm</th>
+                    <th class="px-4 py-3 text-center border-b border-slate-700">Số lượng</th>
+                    <th class="px-4 py-3 text-left border-b border-slate-700">ĐVT</th>
+                    <th class="px-4 py-3 text-left border-b border-slate-700">Tình trạng</th>
+                    <th class="px-4 py-3 text-left border-b border-slate-700">Mã barcode</th>
+                    <th class="px-4 py-3 text-left border-b border-slate-700">Ghi chú</th>
+                    <th class="px-4 py-3 text-center border-b border-slate-700">Thao tác</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-700">
+                @if (Model != null && Model.Count > 0)
+                {
+                    foreach (var line in Model)
+                    {
+                        <tr class="hover:bg-slate-800/60 transition">
+                            <td class="px-4 py-3">@line.LineID</td>
+                            <td class="px-4 py-3">@line.SKU</td>
+                            <td class="px-4 py-3">@line.ProductName</td>
+                            <td class="px-4 py-3 text-center">@line.Quantity</td>
+                            <td class="px-4 py-3">@line.UOM</td>
+                            <td class="px-4 py-3">@line.ConditionStatus</td>
+                            <td class="px-4 py-3">@line.Barcode</td>
+                            <td class="px-4 py-3">@line.Remark</td>
+                            <td class="px-4 py-3 text-center space-x-2">
+                                <a href="/Receiving/EditLine?lineId=@line.LineID&receivingID=@ViewBag.ReceivingID" class="text-yellow-400 hover:text-yellow-300">✏️</a>
+                                <a href="/Receiving/DeleteLine?lineId=@line.LineID&receivingID=@ViewBag.ReceivingID" onclick="return confirm('Xóa dòng hàng này?')" class="text-red-400 hover:text-red-300">🗑️</a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="9" class="text-center text-slate-400 py-6">
+                            Chưa có dòng hàng nào.
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+     <script>lucide.createIcons()</script>
+}

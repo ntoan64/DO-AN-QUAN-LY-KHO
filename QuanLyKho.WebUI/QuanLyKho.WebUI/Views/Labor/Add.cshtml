@@ -1,0 +1,59 @@
+﻿@model QuanLyKho.WebUI.Controllers.LaborSummaryViewModel
+@{
+    ViewBag.Title = "Add Labor Record";
+    ViewBag.PageTitle = "📝 Ghi nhận công việc lao động";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<h2 class="text-xl font-semibold text-white mb-6">@ViewBag.PageTitle</h2>
+
+<form method="post" action="/Labor/Add" class="space-y-4 max-w-xl">
+    <div>
+        <label class="block mb-1 text-slate-300">Nhân viên</label>
+        <input type="text" name="EmployeeName" value="@ViewBag.EmployeeName" readonly
+               class="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-md text-slate-100" />
+    </div>
+    <div>
+        <label class="block mb-1 text-slate-300">Loại công việc</label>
+        <select name="TaskType" required
+                class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-slate-100">
+            <option value="">-- Chọn loại công việc --</option>
+            <option>Receiving</option>
+            <option>QA</option>
+            <option>PutAway</option>
+            <option>Replenishment</option>
+            <option>Assembly</option>
+            <option>Picking</option>
+            <option>Inventory</option>
+        </select>
+    </div>
+    <div>
+        <label class="block mb-1 text-slate-300">Số giờ làm</label>
+        <input type="number" step="0.1" name="HoursWorked" required
+               class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-slate-100" />
+    </div>
+    <div>
+        <label class="block mb-1 text-slate-300">Số việc hoàn thành</label>
+        <input type="number" name="TasksCompleted" required
+               class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-slate-100" />
+    </div>
+    <div>
+        <label class="block mb-1 text-slate-300">Ngày làm</label>
+        <input type="date" name="WorkDate" value="@DateTime.Now.ToString("yyyy-MM-dd")"
+               class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-slate-100" />
+    </div>
+    <div>
+        <label class="block mb-1 text-slate-300">Ghi chú</label>
+        <input type="text" name="Note"
+               class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-slate-100" />
+    </div>
+
+    <div class="flex gap-4 mt-6">
+        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md flex items-center gap-2">
+            <i data-lucide="save" class="w-4 h-4"></i> Lưu
+        </button>
+        <a href="/Labor/Index" class="text-slate-300 hover:text-slate-100 flex items-center gap-2">
+            <i data-lucide="arrow-left" class="w-4 h-4"></i> Quay lại
+        </a>
+    </div>
+</form>

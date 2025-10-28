@@ -1,0 +1,42 @@
+﻿@model QuanLyKho.WebUI.Models.InventoryTransactionViewModel
+@{
+    ViewBag.Title = "Điều chỉnh tồn kho";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<div class="p-6 space-y-6">
+    <h2 class="text-2xl font-semibold text-white flex items-center gap-2">
+        <i data-lucide="plus-minus" class="w-6 h-6 text-yellow-400"></i>
+        Điều chỉnh tồn kho
+    </h2>
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="bg-red-100 text-red-700 px-4 py-2 rounded">@ViewBag.Error</div>
+    }
+
+    <form method="post" action="/Inventory/Adjust" class="space-y-5">
+        <div class="grid grid-cols-2 gap-4">
+            <div><label class="text-slate-300">SKU</label><input type="text" name="SKU" required class="input-dark" /></div>
+            <div><label class="text-slate-300">Vị trí (Location)</label><input type="text" name="ToLocation" class="input-dark" /></div>
+            <div><label class="text-slate-300">Vị trí xuất (nếu trừ)</label><input type="text" name="FromLocation" class="input-dark" /></div>
+            <div><label class="text-slate-300">Số lượng (+/-)</label><input type="number" name="Quantity" required class="input-dark" /></div>
+        </div>
+
+        <div>
+            <label class="text-slate-300">Ghi chú</label>
+            <input type="text" name="Note" class="input-dark w-full" />
+        </div>
+
+        <div class="flex justify-between items-center">
+            <a href="/Inventory/Index" class="text-slate-400 hover:text-slate-200">⬅ Quay lại</a>
+            <button type="submit" class="btn-blue">
+                <i data-lucide="save" class="w-5 h-5"></i> Lưu điều chỉnh
+            </button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+     <script>lucide.createIcons()</script>
+}

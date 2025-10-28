@@ -1,0 +1,27 @@
+﻿@model QuanLyKho.WebUI.Controllers.LaborSummaryViewModel
+@{
+    ViewBag.Title = "Labor Details";
+    ViewBag.PageTitle = "📄 Chi tiết ghi nhận công việc lao động";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<h2 class="text-xl font-semibold text-white mb-4">@ViewBag.PageTitle</h2>
+
+<div class="overflow-hidden rounded-lg border border-slate-700">
+    <table class="min-w-full text-sm text-slate-300">
+        <tbody>
+            <tr class="border-b border-slate-700"><td class="px-4 py-2 font-semibold text-slate-200">Nhân viên</td><td class="px-4 py-2">@Model.EmployeeName</td></tr>
+            <tr class="border-b border-slate-700"><td class="px-4 py-2 font-semibold text-slate-200">Loại công việc</td><td class="px-4 py-2">@Model.TaskType</td></tr>
+            <tr class="border-b border-slate-700"><td class="px-4 py-2 font-semibold text-slate-200">Số giờ làm</td><td class="px-4 py-2">@Model.HoursWorked</td></tr>
+            <tr class="border-b border-slate-700"><td class="px-4 py-2 font-semibold text-slate-200">Số việc hoàn thành</td><td class="px-4 py-2">@Model.TasksCompleted</td></tr>
+            <tr class="border-b border-slate-700"><td class="px-4 py-2 font-semibold text-slate-200">Ngày làm</td><td class="px-4 py-2">@Model.WorkDate.ToString("dd/MM/yyyy")</td></tr>
+            <tr><td class="px-4 py-2 font-semibold text-slate-200">Ghi chú</td><td class="px-4 py-2">@Model.Note</td></tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="mt-6">
+    <a href="/Labor/Index" class="text-blue-400 hover:text-blue-300 flex items-center gap-2">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i> Quay lại danh sách
+    </a>
+</div>

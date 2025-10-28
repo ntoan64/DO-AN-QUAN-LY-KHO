@@ -1,0 +1,50 @@
+﻿@model List<QuanLyKho.WebUI.Controllers.LaborSummaryViewModel>
+@{
+    ViewBag.Title = "Labor Tracking";
+    ViewBag.PageTitle = "👷 Theo dõi lao động";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<div class="flex justify-between items-center mb-6">
+    <h2 class="text-xl font-semibold text-white">@ViewBag.PageTitle</h2>
+
+    <a href="/Labor/Add"
+       class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition">
+        <i data-lucide="plus-circle" class="w-4 h-4"></i> Ghi nhận công việc
+    </a>
+</div>
+
+<div class="overflow-x-auto border border-slate-700 rounded-lg shadow">
+    <table class="min-w-full text-sm text-slate-300">
+        <thead class="bg-slate-800 text-slate-200">
+            <tr>
+                <th class="px-3 py-2 text-left">Nhân viên</th>
+                <th class="px-3 py-2 text-left">Loại công việc</th>
+                <th class="px-3 py-2 text-center">Số giờ</th>
+                <th class="px-3 py-2 text-center">Số việc hoàn thành</th>
+                <th class="px-3 py-2 text-center">Ngày</th>
+                <th class="px-3 py-2 text-left">Ghi chú</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Count > 0)
+            {
+                foreach (var item in Model)
+                {
+                    <tr class="hover:bg-slate-800/60 transition">
+                        <td class="px-3 py-2">@item.EmployeeName</td>
+                        <td class="px-3 py-2">@item.TaskType</td>
+                        <td class="px-3 py-2 text-center">@item.HoursWorked</td>
+                        <td class="px-3 py-2 text-center">@item.TasksCompleted</td>
+                        <td class="px-3 py-2 text-center">@item.WorkDate.ToString("dd/MM/yyyy")</td>
+                        <td class="px-3 py-2">@item.Note</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr><td colspan="6" class="text-center py-4 text-slate-400">Chưa có dữ liệu lao động.</td></tr>
+            }
+        </tbody>
+    </table>
+</div>

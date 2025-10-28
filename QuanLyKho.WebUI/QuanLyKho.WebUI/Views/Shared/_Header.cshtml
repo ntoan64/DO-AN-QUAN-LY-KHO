@@ -1,0 +1,32 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+<div style="background:#f2f2f2;padding:8px 12px;margin-bottom:15px;">
+    <div style="display:flex;justify-content:space-between;align-items:center;">
+        <div>
+            <a href="/Home/Index">📊 Dashboard</a> |
+            <a href="/Receiving/Index">Receiving</a> |
+            <a href="/Assembly/Index">Assembly</a> |
+            <a href="/Picking/Index">Picking</a> |
+            <a href="/Inventory/Index">Inventory</a> |
+            <a href="/Labor/Index">Labor</a>
+            </div>
+            <div>
+                @{
+                    var username = HttpContextAccessor.HttpContext?.Session.GetString("Username");
+                    var role = HttpContextAccessor.HttpContext?.Session.GetString("Role");
+                    }
+                    @if (!string.IsNullOrEmpty(username))
+            {
+                <span>👤 @username (@role)</span>
+                <span> | </span>
+                <a href="/Account/Logout">🚪 Đăng xuất</a>
+            }
+            else
+            {
+                <a href="/Account/Login">🔐 Đăng nhập</a>
+                <span> | </span>
+                <a href="/Account/Register">📝 Đăng ký</a>
+            }
+        </div>
+    </div>
+</div>

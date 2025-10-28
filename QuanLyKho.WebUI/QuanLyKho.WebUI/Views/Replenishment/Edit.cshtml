@@ -1,0 +1,48 @@
+﻿@model QuanLyKho.WebUI.Models.ReplenishmentTaskViewModel
+@{
+    ViewBag.Title = "Edit Replenishment";
+    ViewBag.PageTitle = "✏️ Sửa nhiệm vụ bổ sung tồn kho";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<h2 class="text-xl font-semibold text-white mb-6">@ViewBag.PageTitle #@Model.TaskID</h2>
+
+<form method="post" action="/Replenishment/Edit/@Model.TaskID" class="space-y-4 max-w-xl">
+    <div>
+        <label class="block mb-1 text-slate-300">SKU</label>
+        <input type="text" name="SKU" value="@Model.SKU" class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-slate-100" />
+    </div>
+    <div>
+        <label class="block mb-1 text-slate-300">Từ vị trí</label>
+        <input type="text" name="FromLocation" value="@Model.FromLocation" class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-slate-100" />
+    </div>
+    <div>
+        <label class="block mb-1 text-slate-300">Đến vị trí</label>
+        <input type="text" name="ToLocation" value="@Model.ToLocation" class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-slate-100" />
+    </div>
+    <div>
+        <label class="block mb-1 text-slate-300">Số lượng</label>
+        <input type="number" name="Quantity" value="@Model.Quantity" class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-slate-100" />
+    </div>
+    <div>
+        <label class="block mb-1 text-slate-300">Người thực hiện</label>
+        <input type="text" name="AssignedTo" value="@Model.AssignedTo" class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-slate-100" />
+    </div>
+    <div>
+        <label class="block mb-1 text-slate-300">Trạng thái</label>
+        <input type="text" name="Status" value="@Model.Status" class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-slate-100" />
+    </div>
+    <div>
+        <label class="block mb-1 text-slate-300">Ghi chú</label>
+        <textarea name="Note" class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-slate-100">@Model.Note</textarea>
+    </div>
+
+    <div class="flex gap-4 mt-6">
+        <button type="submit" class="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-md flex items-center gap-2">
+            <i data-lucide="save" class="w-4 h-4"></i> Lưu thay đổi
+        </button>
+        <a href="/Replenishment/Index" class="text-slate-300 hover:text-slate-100 flex items-center gap-2">
+            <i data-lucide="arrow-left" class="w-4 h-4"></i> Quay lại
+        </a>
+    </div>
+</form>

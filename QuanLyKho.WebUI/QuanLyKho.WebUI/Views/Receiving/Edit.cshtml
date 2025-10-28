@@ -1,0 +1,35 @@
+﻿@model QuanLyKho.WebUI.Models.ReceivingHeaderViewModel
+@{
+    ViewBag.Title = "Sửa phiếu nhập";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<div class="p-6 space-y-6">
+    <h2 class="text-2xl font-semibold text-white flex items-center gap-2">
+        <i data-lucide="edit-3" class="w-6 h-6 text-yellow-400"></i>
+        Sửa phiếu nhập #@Model.ReceivingID
+    </h2>
+
+    <form method="post" action="/Receiving/Edit/@Model.ReceivingID" class="space-y-5">
+        <div class="grid grid-cols-2 gap-4">
+            <div><label class="block text-slate-300 mb-1">Mã nhà cung cấp</label><input type="number" name="SupplierID" value="@Model.SupplierID" class="input-dark" /></div>
+            <div><label class="block text-slate-300 mb-1">Ngày nhập</label><input type="date" name="ReceivingDate" value="@Model.ReceivingDate.ToString("yyyy-MM-dd")" class="input-dark" /></div>
+            <div><label class="block text-slate-300 mb-1">Tham chiếu</label><input type="text" name="ReferenceNo" value="@Model.ReferenceNo" class="input-dark" /></div>
+            <div><label class="block text-slate-300 mb-1">Trạng thái</label><input type="text" name="Status" value="@Model.Status" class="input-dark" /></div>
+        </div>
+
+        <div>
+            <label class="block text-slate-300 mb-1">Ghi chú</label>
+            <textarea name="Note" class="input-dark w-full">@Model.Note</textarea>
+        </div>
+
+        <div class="flex justify-between items-center">
+            <a href="/Receiving/Index" class="text-slate-400 hover:text-slate-200">⬅ Quay lại</a>
+            <button type="submit" class="btn-blue"><i data-lucide="save" class="w-5 h-5"></i> Lưu thay đổi</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+     <script>lucide.createIcons()</script>
+}

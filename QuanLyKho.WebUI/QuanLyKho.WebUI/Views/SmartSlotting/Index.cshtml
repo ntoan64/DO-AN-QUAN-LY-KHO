@@ -1,0 +1,62 @@
+﻿@model List<QuanLyKho.WebUI.Models.SmartSlottingViewModel>
+@{
+    ViewBag.Title = "Smart Slotting List";
+    ViewBag.PageTitle = "🤖 Danh sách khuyến nghị vị trí (Smart Slotting)";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<div class="flex justify-between items-center mb-6">
+    <h2 class="text-xl font-semibold text-white">@ViewBag.PageTitle</h2>
+
+    <a href="/SmartSlotting/Create"
+       class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition">
+        <i data-lucide="plus-circle" class="w-4 h-4"></i> Tạo khuyến nghị mới
+    </a>
+</div>
+
+<div class="overflow-x-auto border border-slate-700 rounded-lg shadow">
+    <table class="min-w-full text-sm text-slate-300">
+        <thead class="bg-slate-800 text-slate-200">
+            <tr>
+                <th class="px-3 py-2 text-left">ID</th>
+                <th class="px-3 py-2 text-left">SKU</th>
+                <th class="px-3 py-2 text-left">Tên sản phẩm</th>
+                <th class="px-3 py-2 text-left">Hiện tại</th>
+                <th class="px-3 py-2 text-left">Đề xuất</th>
+                <th class="px-3 py-2 text-center">Velocity</th>
+                <th class="px-3 py-2 text-center">Weight</th>
+                <th class="px-3 py-2 text-center">Category</th>
+                <th class="px-3 py-2 text-left">Ghi chú</th>
+                <th class="px-3 py-2 text-center">Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Count > 0)
+            {
+                foreach (var x in Model)
+                {
+                    <tr class="hover:bg-slate-800/60 transition">
+                        <td class="px-3 py-2">@x.SlotID</td>
+                        <td class="px-3 py-2">@x.SKU</td>
+                        <td class="px-3 py-2">@x.ProductName</td>
+                        <td class="px-3 py-2">@x.CurrentLocation</td>
+                        <td class="px-3 py-2">@x.RecommendedLocation</td>
+                        <td class="px-3 py-2 text-center">@x.VelocityLevel</td>
+                        <td class="px-3 py-2 text-center">@x.Weight</td>
+                        <td class="px-3 py-2 text-center">@x.Category</td>
+                        <td class="px-3 py-2">@x.Note</td>
+                        <td class="px-3 py-2 text-center space-x-2">
+                            <a href="/SmartSlotting/Details/@x.SlotID" class="text-blue-400 hover:text-blue-300"><i data-lucide="eye" class="w-4 h-4 inline"></i></a>
+                            <a href="/SmartSlotting/Edit/@x.SlotID" class="text-yellow-400 hover:text-yellow-300"><i data-lucide="edit" class="w-4 h-4 inline"></i></a>
+                            <a href="/SmartSlotting/Delete/@x.SlotID" onclick="return confirm('Xóa khuyến nghị này?')" class="text-red-400 hover:text-red-300"><i data-lucide="trash-2" class="w-4 h-4 inline"></i></a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr><td colspan="10" class="text-center py-4 text-slate-400">Không có dữ liệu khuyến nghị.</td></tr>
+            }
+        </tbody>
+    </table>
+</div>

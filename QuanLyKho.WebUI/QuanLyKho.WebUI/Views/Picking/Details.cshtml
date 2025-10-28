@@ -1,0 +1,86 @@
+﻿@model QuanLyKho.WebUI.Controllers.PickingDetailResponse
+@{
+    ViewBag.Title = "Chi tiết phiếu Picking";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<div class="p-6 space-y-6">
+    @if (Model?.Header != null)
+    {
+        <div class="flex items-center justify-between">
+            <h2 class="text-2xl font-semibold text-white flex items-center gap-2">
+                <i data-lucide="clipboard-list" class="w-6 h-6 text-orange-400"></i>
+                Chi tiết phiếu Picking: @Model.Header.PickingNo
+            </h2>
+            <a href="/Picking/Index"
+               class="bg-slate-700 hover:bg-slate-600 text-white px-4 py-2 rounded font-medium transition">
+                ⬅ Quay lại danh sách
+            </a>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4 text-slate-300">
+            <p><b>📄 Đơn tham chiếu:</b> @Model.Header.OrderRef</p>
+            <p><b>👷 Người chọn hàng:</b> @Model.Header.PickerName</p>
+            <p><b>📅 Ngày chọn:</b> @Model.Header.PickingDate.ToString("dd/MM/yyyy")</p>
+            <p><b>⚙️ Trạng thái:</b> @Model.Header.Status</p>
+            <p><b>📝 Ghi chú:</b> @Model.Header.Note</p>
+        </div>
+
+        <h3 class="text-xl text-white font-semibold mt-6 mb-2 flex items-center gap-2">
+            <i data-lucide="package" class="w-5 h-5 text-blue-400"></i>
+            Danh sách hàng hóa
+        </h3>
+
+        <div class="overflow-x-auto rounded-lg border border-slate-700 shadow">
+            <table class="min-w-full border-collapse text-sm text-slate-300">
+                <thead class="bg-slate-800 text-slate-100">
+                    <tr>
+                        <th class="px-4 py-3 text-left border-b border-slate-700">SKU</th>
+                        <th class="px-4 py-3 text-left border-b border-slate-700">Tên sản phẩm</th>
+                        <th class="px-4 py-3 text-center border-b border-slate-700">Số lượng</th>
+                        <th class="px-4 py-3 text-left border-b border-slate-700">Vị trí lấy</th>
+                        <th class="px-4 py-3 text-left border-b border-slate-700">ĐVT</th>
+                        <th class="px-4 py-3 text-left border-b border-slate-700">Số lô</th>
+                        <th class="px-4 py-3 text-left border-b border-slate-700">Ghi chú</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-700">
+                    @if (Model.Lines != null && Model.Lines.Count > 0)
+                    {
+                        foreach (var l in Model.Lines)
+                        {
+                            <tr class="hover:bg-slate-800/60 transition">
+                                <td class="px-4 py-3">@l.SKU</td>
+                                <td class="px-4 py-3">@l.ProductName</td>
+                                <td class="px-4 py-3 text-center">@l.Quantity</td>
+                                <td class="px-4 py-3">@l.FromLocation</td>
+                                <td class="px-4 py-3">@l.UOM</td>
+                                <td class="px-4 py-3">@l.BatchNo</td>
+                                <td class="px-4 py-3">@l.Remark</td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="7" class="text-center text-slate-400 py-6">
+                                Không có dòng hàng.
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <div class="text-center text-slate-400">Không tìm thấy phiếu Picking.</div>
+        <div class="mt-4 text-center">
+            <a href="/Picking/Index" class="text-blue-400 hover:text-blue-300">⬅ Quay lại danh sách</a>
+        </div>
+    }
+</div>
+
+@section Scripts {
+     <script>lucide.createIcons()</script>
+}

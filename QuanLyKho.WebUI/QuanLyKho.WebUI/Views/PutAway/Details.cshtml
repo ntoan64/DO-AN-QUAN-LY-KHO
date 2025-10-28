@@ -1,0 +1,69 @@
+﻿@model QuanLyKho.WebUI.Models.PutAwayTaskViewModel
+@{
+    ViewBag.Title = "PutAway Details";
+    ViewBag.PageTitle = "📄 Chi tiết nhiệm vụ Put Away";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<h2 class="text-xl font-semibold text-white mb-4">@ViewBag.PageTitle #@Model.TaskID</h2>
+
+<div class="overflow-hidden rounded-lg border border-slate-700">
+    <table class="min-w-full text-sm text-slate-300">
+        <tbody>
+            <tr class="border-b border-slate-700">
+                <td class="px-4 py-2 font-semibold text-slate-200">ReceivingID</td>
+                <td class="px-4 py-2">@Model.ReceivingID</td>
+            </tr>
+            <tr class="border-b border-slate-700">
+                <td class="px-4 py-2 font-semibold text-slate-200">LineID</td>
+                <td class="px-4 py-2">@Model.LineID</td>
+            </tr>
+            <tr class="border-b border-slate-700">
+                <td class="px-4 py-2 font-semibold text-slate-200">SKU</td>
+                <td class="px-4 py-2">@Model.SKU</td>
+            </tr>
+            <tr class="border-b border-slate-700">
+                <td class="px-4 py-2 font-semibold text-slate-200">Từ vị trí</td>
+                <td class="px-4 py-2">@Model.FromLocation</td>
+            </tr>
+            <tr class="border-b border-slate-700">
+                <td class="px-4 py-2 font-semibold text-slate-200">Đến vị trí</td>
+                <td class="px-4 py-2">@Model.ToLocation</td>
+            </tr>
+            <tr class="border-b border-slate-700">
+                <td class="px-4 py-2 font-semibold text-slate-200">Số lượng</td>
+                <td class="px-4 py-2">@Model.Quantity</td>
+            </tr>
+            <tr class="border-b border-slate-700">
+                <td class="px-4 py-2 font-semibold text-slate-200">Người thực hiện</td>
+                <td class="px-4 py-2">@Model.AssignedTo</td>
+            </tr>
+            <tr class="border-b border-slate-700">
+                <td class="px-4 py-2 font-semibold text-slate-200">Trạng thái</td>
+                <td class="px-4 py-2">@Model.Status</td>
+            </tr>
+            <tr>
+                <td class="px-4 py-2 font-semibold text-slate-200">Ghi chú</td>
+                <td class="px-4 py-2">@Model.Note</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="mt-6 flex gap-3">
+    <a href="/PutAway/Edit/@Model.TaskID"
+       class="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-md text-sm flex items-center gap-2">
+        <i data-lucide="edit" class="w-4 h-4"></i> Sửa
+    </a>
+
+    <a href="/PutAway/Delete/@Model.TaskID?receivingId=@Model.ReceivingID"
+       onclick="return confirm('Xóa nhiệm vụ này?')"
+       class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md text-sm flex items-center gap-2">
+        <i data-lucide="trash-2" class="w-4 h-4"></i> Xóa
+    </a>
+
+    <a href="/PutAway/ByReceiving?receivingId=@Model.ReceivingID"
+       class="text-blue-400 hover:text-blue-300 flex items-center gap-2">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i> Quay lại danh sách PutAway
+    </a>
+</div>

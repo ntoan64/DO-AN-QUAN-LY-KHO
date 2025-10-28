@@ -1,0 +1,47 @@
+﻿@model List<QuanLyKho.WebUI.Controllers.BOMComponentViewModel>
+@{
+    ViewBag.Title = "BOM Components";
+    ViewBag.PageTitle = "🧩 Cấu trúc BOM đa cấp";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<h2 class="text-xl font-semibold text-white mb-4">@ViewBag.PageTitle</h2>
+
+<div class="overflow-x-auto rounded-lg shadow border border-slate-700">
+    <table class="min-w-full text-sm text-slate-300">
+        <thead class="bg-slate-800 text-slate-200">
+            <tr>
+                <th class="px-4 py-2 text-left">Mã cha</th>
+                <th class="px-4 py-2 text-left">Mã con</th>
+                <th class="px-4 py-2 text-left">Tên thành phần con</th>
+                <th class="px-4 py-2 text-center">Số lượng/đơn vị</th>
+                <th class="px-4 py-2 text-center">Cấp độ</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Count > 0)
+            {
+                foreach (var b in Model)
+                {
+                    <tr class="hover:bg-slate-800/60 transition">
+                        <td class="px-4 py-2">@b.ParentComponentCode</td>
+                        <td class="px-4 py-2">@b.ChildComponentCode</td>
+                        <td class="px-4 py-2">@b.ChildName</td>
+                        <td class="px-4 py-2 text-center">@b.QuantityPerUnit</td>
+                        <td class="px-4 py-2 text-center">@b.Level</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr><td colspan="5" class="text-center py-3 text-slate-400">Không có dữ liệu BOM.</td></tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="mt-6">
+    <a href="/Assembly/Index" class="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 transition">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i> Quay lại danh sách lắp ráp
+    </a>
+</div>

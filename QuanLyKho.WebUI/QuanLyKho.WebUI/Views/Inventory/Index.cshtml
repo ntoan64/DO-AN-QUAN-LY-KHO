@@ -1,0 +1,56 @@
+﻿@model List<QuanLyKho.WebUI.Models.InventoryBalanceViewModel>
+@{
+    ViewBag.Title = "Số dư tồn kho";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<div class="p-6 space-y-6">
+    <div class="flex items-center justify-between">
+        <h2 class="text-2xl font-semibold text-white flex items-center gap-2">
+            <i data-lucide="warehouse" class="w-6 h-6 text-green-400"></i>
+            Số dư tồn kho
+        </h2>
+        <div class="flex gap-3">
+            <a href="/Inventory/Adjust" class="btn-blue">➕/➖ Điều chỉnh</a>
+            <a href="/Inventory/Transfer" class="btn-blue">🔁 Chuyển kho</a>
+            <a href="/Inventory/Transactions" class="btn-gray">📜 Nhật ký</a>
+        </div>
+    </div>
+
+    <div class="overflow-x-auto rounded-lg border border-slate-700 shadow">
+        <table class="min-w-full border-collapse text-sm text-slate-300">
+            <thead class="bg-slate-800 text-slate-100">
+                <tr>
+                    <th class="px-4 py-3 text-left border-b border-slate-700">SKU</th>
+                    <th class="px-4 py-3 text-left border-b border-slate-700">Vị trí</th>
+                    <th class="px-4 py-3 text-center border-b border-slate-700">Số lượng</th>
+                    <th class="px-4 py-3 text-left border-b border-slate-700">Cập nhật</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-700">
+                @if (Model != null && Model.Count > 0)
+                {
+                    foreach (var x in Model)
+                    {
+                        <tr class="hover:bg-slate-800/60 transition">
+                            <td class="px-4 py-3">@x.SKU</td>
+                            <td class="px-4 py-3">@x.LocationCode</td>
+                            <td class="px-4 py-3 text-center">@x.Quantity</td>
+                            <td class="px-4 py-3">@x.LastUpdated.ToString("dd/MM/yyyy HH:mm")</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="4" class="text-center text-slate-400 py-6">Không có dữ liệu.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+     <script>lucide.createIcons()</script>
+}

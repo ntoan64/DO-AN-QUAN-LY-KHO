@@ -1,0 +1,62 @@
+﻿@model List<QuanLyKho.WebUI.Controllers.PickingHeaderViewModel>
+@{
+    ViewBag.Title = "Danh sách phiếu Picking";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<div class="p-6 space-y-6">
+    <div class="flex items-center justify-between">
+        <h2 class="text-2xl font-semibold text-white flex items-center gap-2">
+            <i data-lucide="shopping-bag" class="w-6 h-6 text-orange-400"></i>
+            Danh sách phiếu Picking
+        </h2>
+    </div>
+
+    <div class="overflow-x-auto rounded-lg border border-slate-700 shadow">
+        <table class="min-w-full border-collapse text-sm text-slate-300">
+            <thead class="bg-slate-800 text-slate-100">
+                <tr>
+                    <th class="px-4 py-3 text-left border-b border-slate-700">Mã Picking</th>
+                    <th class="px-4 py-3 text-left border-b border-slate-700">Đơn tham chiếu</th>
+                    <th class="px-4 py-3 text-left border-b border-slate-700">Người chọn hàng</th>
+                    <th class="px-4 py-3 text-left border-b border-slate-700">Ngày chọn</th>
+                    <th class="px-4 py-3 text-left border-b border-slate-700">Trạng thái</th>
+                    <th class="px-4 py-3 text-left border-b border-slate-700">Ghi chú</th>
+                    <th class="px-4 py-3 text-center border-b border-slate-700">Chi tiết</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-700">
+                @if (Model != null && Model.Count > 0)
+                {
+                    foreach (var p in Model)
+                    {
+                        <tr class="hover:bg-slate-800/60 transition">
+                            <td class="px-4 py-3">@p.PickingNo</td>
+                            <td class="px-4 py-3">@p.OrderRef</td>
+                            <td class="px-4 py-3">@p.PickerName</td>
+                            <td class="px-4 py-3">@p.PickingDate.ToString("dd/MM/yyyy")</td>
+                            <td class="px-4 py-3">@p.Status</td>
+                            <td class="px-4 py-3">@p.Note</td>
+                            <td class="px-4 py-3 text-center">
+                                <a href="/Picking/Details/@p.PickingID"
+                                   class="text-blue-400 hover:text-blue-300 font-medium">👁️ Xem</a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="7" class="text-center text-slate-400 py-6">
+                            Không có dữ liệu.
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+     <script>lucide.createIcons()</script>
+}

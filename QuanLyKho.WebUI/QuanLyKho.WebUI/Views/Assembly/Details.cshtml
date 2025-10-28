@@ -1,0 +1,63 @@
+﻿@model QuanLyKho.WebUI.Controllers.AssemblyDetailResponse
+@{
+    ViewBag.Title = "Assembly Details";
+    ViewBag.PageTitle = "📄 Chi tiết phiếu lắp ráp";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+@if (Model?.Header != null)
+{
+    <div class="space-y-2 mb-6 text-slate-300">
+        <h2 class="text-xl font-semibold text-white">Phiếu lắp ráp: @Model.Header.AssemblyNo</h2>
+        <p><b>Sản phẩm:</b> @Model.Header.ProductName</p>
+        <p><b>Số lượng:</b> @Model.Header.Quantity</p>
+        <p><b>Thời gian:</b> @Model.Header.StartDate?.ToString("dd/MM/yyyy") → @Model.Header.EndDate?.ToString("dd/MM/yyyy")</p>
+        <p><b>Trạng thái:</b> @Model.Header.Status</p>
+        <p><b>Người tạo:</b> @Model.Header.CreatedBy</p>
+        <p><b>Ghi chú:</b> @Model.Header.Note</p>
+    </div>
+
+    <h3 class="text-lg font-semibold text-white mb-3">🔧 Nguyên vật liệu sử dụng</h3>
+    <div class="overflow-x-auto rounded-lg border border-slate-700">
+        <table class="min-w-full text-sm text-slate-300">
+            <thead class="bg-slate-800 text-slate-200">
+                <tr>
+                    <th class="px-4 py-2 text-left">Mã linh kiện</th>
+                    <th class="px-4 py-2 text-left">Tên linh kiện</th>
+                    <th class="px-4 py-2 text-center">Số lượng</th>
+                    <th class="px-4 py-2 text-center">ĐVT</th>
+                    <th class="px-4 py-2 text-center">Chi phí</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Lines != null && Model.Lines.Count > 0)
+                {
+                    foreach (var line in Model.Lines)
+                    {
+                        <tr class="hover:bg-slate-800/60 transition">
+                            <td class="px-4 py-2">@line.ComponentCode</td>
+                            <td class="px-4 py-2">@line.ComponentName</td>
+                            <td class="px-4 py-2 text-center">@line.QuantityUsed</td>
+                            <td class="px-4 py-2 text-center">@line.UOM</td>
+                            <td class="px-4 py-2 text-center">@line.Cost</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr><td colspan="5" class="text-center py-3 text-slate-400">Không có nguyên vật liệu.</td></tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <p class="text-slate-400">Không tìm thấy phiếu lắp ráp.</p>
+}
+
+<div class="mt-6">
+    <a href="/Assembly/Index" class="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 transition">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i> Quay lại danh sách
+    </a>
+</div>

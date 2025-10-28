@@ -1,0 +1,62 @@
+﻿@model List<QuanLyKho.WebUI.Models.InventoryTransactionViewModel>
+@{
+    ViewBag.Title = "Nhật ký giao dịch tồn kho";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<div class="p-6 space-y-6">
+    <div class="flex items-center justify-between">
+        <h2 class="text-2xl font-semibold text-white flex items-center gap-2">
+            <i data-lucide="book-open" class="w-6 h-6 text-blue-400"></i>
+            Nhật ký giao dịch tồn kho
+        </h2>
+        <a href="/Inventory/Index" class="btn-gray">⬅ Về số dư tồn</a>
+    </div>
+
+    <div class="overflow-x-auto rounded-lg border border-slate-700 shadow">
+        <table class="min-w-full border-collapse text-sm text-slate-300">
+            <thead class="bg-slate-800 text-slate-100">
+                <tr>
+                    <th class="px-4 py-3 border-b border-slate-700">Thời gian</th>
+                    <th class="px-4 py-3 border-b border-slate-700">Loại</th>
+                    <th class="px-4 py-3 border-b border-slate-700">SKU</th>
+                    <th class="px-4 py-3 border-b border-slate-700">From</th>
+                    <th class="px-4 py-3 border-b border-slate-700">To</th>
+                    <th class="px-4 py-3 border-b border-slate-700">SL</th>
+                    <th class="px-4 py-3 border-b border-slate-700">Ref</th>
+                    <th class="px-4 py-3 border-b border-slate-700">Ghi chú</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-700">
+                @if (Model != null && Model.Count > 0)
+                {
+                    foreach (var t in Model)
+                    {
+                        <tr class="hover:bg-slate-800/60 transition">
+                            <td class="px-4 py-3">@t.TransDate.ToString("dd/MM/yyyy HH:mm")</td>
+                            <td class="px-4 py-3">@t.TransType</td>
+                            <td class="px-4 py-3">@t.SKU</td>
+                            <td class="px-4 py-3">@t.FromLocation</td>
+                            <td class="px-4 py-3">@t.ToLocation</td>
+                            <td class="px-4 py-3">@t.Quantity</td>
+                            <td class="px-4 py-3">@($"{t.RefModule} #{t.RefID}")</td>
+                            <td class="px-4 py-3">@t.Note</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="8" class="text-center text-slate-400 py-6">
+                            Không có dữ liệu.
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+     <script>lucide.createIcons()</script>
+}

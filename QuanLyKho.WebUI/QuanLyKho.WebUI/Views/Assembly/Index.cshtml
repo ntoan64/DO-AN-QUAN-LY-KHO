@@ -1,0 +1,56 @@
+﻿@model List<QuanLyKho.WebUI.Controllers.AssemblyHeaderViewModel>
+@{
+    ViewBag.Title = "Assembly List";
+    ViewBag.PageTitle = "🏭 Danh sách phiếu lắp ráp";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<div class="flex justify-between items-center mb-6">
+    <h2 class="text-xl font-semibold text-white">@ViewBag.PageTitle</h2>
+    <a href="/Assembly/BOM" class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg text-white text-sm font-medium transition">
+        <i data-lucide="list"></i> Xem danh sách BOM
+    </a>
+</div>
+
+<div class="overflow-x-auto rounded-lg shadow border border-slate-700">
+    <table class="min-w-full text-sm text-slate-300">
+        <thead class="bg-slate-800 text-slate-200">
+            <tr>
+                <th class="px-4 py-2 text-left">Mã phiếu</th>
+                <th class="px-4 py-2 text-left">Tên sản phẩm</th>
+                <th class="px-4 py-2 text-center">Số lượng</th>
+                <th class="px-4 py-2 text-center">Ngày bắt đầu</th>
+                <th class="px-4 py-2 text-center">Ngày kết thúc</th>
+                <th class="px-4 py-2 text-center">Trạng thái</th>
+                <th class="px-4 py-2 text-center">Người tạo</th>
+                <th class="px-4 py-2 text-center">Chi tiết</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Count > 0)
+            {
+                foreach (var x in Model)
+                {
+                    <tr class="hover:bg-slate-800/60 transition">
+                        <td class="px-4 py-2">@x.AssemblyNo</td>
+                        <td class="px-4 py-2">@x.ProductName</td>
+                        <td class="px-4 py-2 text-center">@x.Quantity</td>
+                        <td class="px-4 py-2 text-center">@x.StartDate?.ToString("dd/MM/yyyy")</td>
+                        <td class="px-4 py-2 text-center">@x.EndDate?.ToString("dd/MM/yyyy")</td>
+                        <td class="px-4 py-2 text-center">@x.Status</td>
+                        <td class="px-4 py-2 text-center">@x.CreatedBy</td>
+                        <td class="px-4 py-2 text-center">
+                            <a href="/Assembly/Details/@x.AssemblyID" class="text-blue-400 hover:text-blue-300 transition flex justify-center">
+                                <i data-lucide="eye" class="w-4 h-4"></i>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr><td colspan="8" class="text-center py-4 text-slate-400">Không có dữ liệu.</td></tr>
+            }
+        </tbody>
+    </table>
+</div>

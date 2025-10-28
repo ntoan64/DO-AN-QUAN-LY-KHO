@@ -1,0 +1,50 @@
+﻿@model QuanLyKho.WebUI.Models.QARecordViewModel
+@{
+    ViewBag.Title = "Create QA";
+    ViewBag.PageTitle = "➕ Thêm mới kiểm tra QA";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<h2 class="text-xl font-semibold text-white mb-6">@ViewBag.PageTitle cho Phiếu nhập #@ViewBag.ReceivingID</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="text-red-400 mb-4">@ViewBag.Error</div>
+}
+
+<form method="post" action="/Qa/Create" class="space-y-4 max-w-xl">
+    <input type="hidden" name="ReceivingID" value="@ViewBag.ReceivingID" />
+    <div>
+        <label class="block mb-1 text-slate-300">Người kiểm</label>
+        <input type="text" name="Inspector" class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-slate-100" required />
+    </div>
+    <div>
+        <label class="block mb-1 text-slate-300">Tiêu chí</label>
+        <input type="text" name="Criteria" class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-slate-100" />
+    </div>
+    <div>
+        <label class="block mb-1 text-slate-300">Kết quả</label>
+        <input type="text" name="Result" value="Pass" class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-slate-100" />
+    </div>
+    <div>
+        <label class="block mb-1 text-slate-300">Trạng thái</label>
+        <input type="text" name="Status" value="Pass" class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-slate-100" />
+    </div>
+    <div>
+        <label class="block mb-1 text-slate-300">Ghi chú</label>
+        <textarea name="Notes" rows="3" class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-slate-100"></textarea>
+    </div>
+    <div>
+        <label class="block mb-1 text-slate-300">File/Link đính kèm</label>
+        <input type="text" name="AttachmentUrl" class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-slate-100" />
+    </div>
+
+    <div class="flex gap-4 mt-6">
+        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md flex items-center gap-2">
+            <i data-lucide="save" class="w-4 h-4"></i> Lưu QA
+        </button>
+        <a href="/Qa/ByReceiving?receivingId=@ViewBag.ReceivingID" class="text-slate-300 hover:text-slate-100 flex items-center gap-2">
+            <i data-lucide="arrow-left" class="w-4 h-4"></i> Quay lại
+        </a>
+    </div>
+</form>

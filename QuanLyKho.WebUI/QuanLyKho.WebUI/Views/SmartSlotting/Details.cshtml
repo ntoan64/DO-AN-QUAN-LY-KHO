@@ -1,0 +1,35 @@
+﻿@model QuanLyKho.WebUI.Models.SmartSlottingViewModel
+@{
+    ViewBag.Title = "Smart Slotting Details";
+    ViewBag.PageTitle = "📄 Chi tiết khuyến nghị vị trí (Smart Slotting)";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<h2 class="text-xl font-semibold text-white mb-4">@ViewBag.PageTitle #@Model.SlotID</h2>
+
+<div class="overflow-hidden rounded-lg border border-slate-700">
+    <table class="min-w-full text-sm text-slate-300">
+        <tbody>
+            <tr class="border-b border-slate-700"><td class="px-4 py-2 font-semibold text-slate-200">SKU</td><td class="px-4 py-2">@Model.SKU</td></tr>
+            <tr class="border-b border-slate-700"><td class="px-4 py-2 font-semibold text-slate-200">Tên sản phẩm</td><td class="px-4 py-2">@Model.ProductName</td></tr>
+            <tr class="border-b border-slate-700"><td class="px-4 py-2 font-semibold text-slate-200">Vị trí hiện tại</td><td class="px-4 py-2">@Model.CurrentLocation</td></tr>
+            <tr class="border-b border-slate-700"><td class="px-4 py-2 font-semibold text-slate-200">Vị trí đề xuất</td><td class="px-4 py-2">@Model.RecommendedLocation</td></tr>
+            <tr class="border-b border-slate-700"><td class="px-4 py-2 font-semibold text-slate-200">Velocity</td><td class="px-4 py-2">@Model.VelocityLevel</td></tr>
+            <tr class="border-b border-slate-700"><td class="px-4 py-2 font-semibold text-slate-200">Trọng lượng</td><td class="px-4 py-2">@Model.Weight kg</td></tr>
+            <tr class="border-b border-slate-700"><td class="px-4 py-2 font-semibold text-slate-200">Danh mục</td><td class="px-4 py-2">@Model.Category</td></tr>
+            <tr><td class="px-4 py-2 font-semibold text-slate-200">Ghi chú</td><td class="px-4 py-2">@Model.Note</td></tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="mt-6 flex gap-3">
+    <a href="/SmartSlotting/Edit/@Model.SlotID" class="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-md text-sm flex items-center gap-2">
+        <i data-lucide="edit" class="w-4 h-4"></i> Sửa
+    </a>
+    <a href="/SmartSlotting/Delete/@Model.SlotID" onclick="return confirm('Xóa khuyến nghị này?')" class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md text-sm flex items-center gap-2">
+        <i data-lucide="trash-2" class="w-4 h-4"></i> Xóa
+    </a>
+    <a href="/SmartSlotting/Index" class="text-blue-400 hover:text-blue-300 flex items-center gap-2">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i> Quay lại danh sách
+    </a>
+</div>

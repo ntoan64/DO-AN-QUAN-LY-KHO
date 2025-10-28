@@ -1,0 +1,155 @@
+﻿@model List<QuanLyKho.WebUI.Models.ReceivingHeaderViewModel>
+@{
+    ViewBag.Title = "Receiving List";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<div class="p-6 space-y-6">
+    <div class="flex items-center justify-between">
+        <h2 class="text-2xl font-semibold text-white flex items-center gap-2">
+            <i data-lucide="package" class="w-6 h-6 text-blue-400"></i>
+            Danh sách phiếu nhập hàng
+        </h2>
+        <button id="openModalBtn"
+                class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium transition flex items-center gap-2">
+            <i data-lucide="plus-circle" class="w-5 h-5"></i>
+            Thêm phiếu nhập mới
+        </button>
+
+    </div>
+
+    <div class="overflow-x-auto rounded-lg border border-slate-700 shadow">
+        <table class="min-w-full border-collapse text-sm text-slate-300">
+            <thead class="bg-slate-800 text-slate-100">
+                <tr>
+                    <th class="px-4 py-3 text-left font-semibold border-b border-slate-700">Mã phiếu</th>
+                    <th class="px-4 py-3 text-left font-semibold border-b border-slate-700">Mã nhà cung cấp</th>
+                    <th class="px-4 py-3 text-left font-semibold border-b border-slate-700">Ngày nhập</th>
+                    <th class="px-4 py-3 text-left font-semibold border-b border-slate-700">Số tham chiếu</th>
+                    <th class="px-4 py-3 text-left font-semibold border-b border-slate-700">Trạng thái</th>
+                    <th class="px-4 py-3 text-left font-semibold border-b border-slate-700">Người tạo</th>
+                    <th class="px-4 py-3 text-center font-semibold border-b border-slate-700">Thao tác</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-700">
+                @if (Model != null && Model.Count > 0)
+                {
+                    foreach (var item in Model)
+                    {
+                        <tr class="hover:bg-slate-800/60 transition">
+                            <td class="px-4 py-3">@item.ReceivingID</td>
+                            <td class="px-4 py-3">@item.SupplierID</td>
+                            <td class="px-4 py-3">@item.ReceivingDate.ToString("dd/MM/yyyy")</td>
+                            <td class="px-4 py-3">@item.ReferenceNo</td>
+                            <td class="px-4 py-3">@item.Status</td>
+                            <td class="px-4 py-3">@item.CreatedBy</td>
+                            <td class="px-4 py-3 text-center space-x-3">
+                                <a href="/Receiving/Details/@item.ReceivingID"
+                                   class="text-blue-400 hover:text-blue-300 font-medium">👁️ Xem</a>
+                                <a href="/Receiving/Edit/@item.ReceivingID"
+                                   class="text-yellow-400 hover:text-yellow-300 font-medium">✏️ Sửa</a>
+                                <a href="/Receiving/Delete/@item.ReceivingID"
+                                   onclick="return confirm('Bạn có chắc muốn xóa phiếu này không?')"
+                                   class="text-red-400 hover:text-red-300 font-medium">🗑️ Xóa</a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="7" class="text-center text-slate-400 py-6">
+                            Không có dữ liệu.
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- Overlay + Popup -->
+<div id="receivingModal" class="hidden fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50">
+    <div class="bg-slate-800 text-slate-100 rounded-xl shadow-2xl border border-slate-700 w-full max-w-md p-6">
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="text-lg font-semibold">🧾 Tạo phiếu nhập mới</h3>
+            <button id="closeModalBtn" class="text-slate-400 hover:text-white text-xl leading-none">&times;</button>
+        </div>
+
+        <form method="post" action="/Receiving/Create" class="space-y-4">
+            <div>
+                <label class="block text-sm font-medium mb-1">Mã nhà cung cấp</label>
+                <input type="number" name="SupplierID" required
+                       class="w-full rounded-md bg-slate-900 border border-slate-700 px-3 py-2 focus:border-blue-500 focus:ring-0"
+                       placeholder="Nhập mã NCC">
+            </div>
+
+            <div>
+                <label class="block text-sm font-medium mb-1">Số tham chiếu</label>
+                <input type="text" name="ReferenceNo" required
+                       class="w-full rounded-md bg-slate-900 border border-slate-700 px-3 py-2 focus:border-blue-500 focus:ring-0"
+                       placeholder="Ví dụ: PO-1001">
+            </div>
+
+            <div class="grid grid-cols-2 gap-3">
+                <div>
+                    <label class="block text-sm font-medium mb-1">Ngày nhập</label>
+                    <input type="date" name="ReceivingDate"
+                           value="@DateTime.Now.ToString("yyyy-MM-dd")"
+                           class="w-full rounded-md bg-slate-900 border border-slate-700 px-3 py-2 focus:border-blue-500 focus:ring-0">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium mb-1">Trạng thái</label>
+                    <select name="Status"
+                            class="w-full rounded-md bg-slate-900 border border-slate-700 px-3 py-2 focus:border-blue-500 focus:ring-0">
+                        <option value="Pending">Pending</option>
+                        <option value="Completed">Completed</option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <label class="block text-sm font-medium mb-1">Ghi chú</label>
+                <textarea name="Note" rows="2"
+                          class="w-full rounded-md bg-slate-900 border border-slate-700 px-3 py-2 focus:border-blue-500 focus:ring-0"
+                          placeholder="Nhập ghi chú (nếu có)"></textarea>
+            </div>
+
+            <div class="flex justify-end gap-3 pt-2 border-t border-slate-700">
+                <button type="button" id="cancelModalBtn"
+                        class="px-4 py-2 rounded-md bg-slate-700 hover:bg-slate-600 text-sm">
+                    Hủy
+                </button>
+                <button type="submit"
+                        class="px-4 py-2 rounded-md bg-blue-600 hover:bg-blue-700 text-white text-sm">
+                    💾 Lưu phiếu nhập
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        lucide.createIcons();
+
+        const openBtn = document.getElementById('openModalBtn');
+        const closeBtn = document.getElementById('closeModalBtn');
+        const cancelBtn = document.getElementById('cancelModalBtn');
+        const modal = document.getElementById('receivingModal');
+
+        // Mở modal
+        openBtn.addEventListener('click', () => modal.classList.remove('hidden'));
+
+        // Đóng modal
+        const closeModal = () => modal.classList.add('hidden');
+        closeBtn.addEventListener('click', closeModal);
+        cancelBtn.addEventListener('click', closeModal);
+
+        // Đóng khi click ra ngoài khung
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) closeModal();
+        });
+    </script>
+}
+

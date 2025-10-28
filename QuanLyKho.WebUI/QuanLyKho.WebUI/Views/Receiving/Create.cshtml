@@ -1,0 +1,61 @@
+﻿@model QuanLyKho.WebUI.Models.ReceivingHeaderViewModel
+@{
+    ViewBag.Title = "Tạo phiếu nhập mới";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<div class="p-6 space-y-6">
+    <div class="flex items-center justify-between">
+        <h2 class="text-2xl font-semibold text-white flex items-center gap-2">
+            <i data-lucide="plus-square" class="w-6 h-6 text-blue-400"></i>
+            Tạo phiếu nhập mới
+        </h2>
+    </div>
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="bg-red-100 text-red-700 px-4 py-2 rounded">@ViewBag.Error</div>
+    }
+
+    <form method="post" action="/Receiving/Create" class="space-y-5">
+        <div class="grid grid-cols-2 gap-4">
+            <div>
+                <label class="block text-slate-300 mb-1">Mã nhà cung cấp</label>
+                <input type="number" name="SupplierID" required class="w-full px-3 py-2 rounded bg-slate-800 text-white border border-slate-600 focus:ring-2 focus:ring-blue-500" />
+            </div>
+            <div>
+                <label class="block text-slate-300 mb-1">Ngày nhập</label>
+                <input type="date" name="ReceivingDate" required class="w-full px-3 py-2 rounded bg-slate-800 text-white border border-slate-600 focus:ring-2 focus:ring-blue-500" />
+            </div>
+            <div>
+                <label class="block text-slate-300 mb-1">Số tham chiếu</label>
+                <input type="text" name="ReferenceNo" class="w-full px-3 py-2 rounded bg-slate-800 text-white border border-slate-600" />
+            </div>
+            <div>
+                <label class="block text-slate-300 mb-1">Trạng thái</label>
+                <input type="text" name="Status" value="Pending" class="w-full px-3 py-2 rounded bg-slate-800 text-white border border-slate-600" />
+            </div>
+        </div>
+
+        <div>
+            <label class="block text-slate-300 mb-1">Ghi chú</label>
+            <textarea name="Note" rows="3" class="w-full px-3 py-2 rounded bg-slate-800 text-white border border-slate-600"></textarea>
+        </div>
+
+        <div>
+            <label class="block text-slate-300 mb-1">Người tạo</label>
+            <input type="text" name="CreatedBy" value="admin" class="w-full px-3 py-2 rounded bg-slate-800 text-white border border-slate-600" />
+        </div>
+
+        <div class="flex justify-between items-center pt-4">
+            <a href="/Receiving/Index" class="text-slate-400 hover:text-slate-200">⬅ Quay lại</a>
+            <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded font-medium flex items-center gap-2">
+                <i data-lucide="save" class="w-5 h-5"></i> Lưu phiếu nhập
+            </button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+     <script>lucide.createIcons()</script>
+}
