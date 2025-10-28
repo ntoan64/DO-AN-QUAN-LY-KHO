@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "eKfZcr9hyACus2xgzVP2u0IWIxe1rWpq53Ruvodevjs=",
+  "Hash": "huV0F3T0soZf+xQBAf6L1clSbrJs1hkQrq3KOw7ROAc=",
   "Source": "QuanLyKho.API",
   "BasePath": "_content/QuanLyKho.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

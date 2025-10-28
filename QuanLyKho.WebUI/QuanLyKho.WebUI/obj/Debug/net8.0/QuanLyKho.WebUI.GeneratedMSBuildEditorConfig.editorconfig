@@ -9,177 +9,191 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QuanLyKho.WebUI
 build_property.RootNamespace = QuanLyKho.WebUI
-build_property.ProjectDir = C:\Users\Gaming\Downloads\QuanLyKho.API\QuanLyKho.WebUI\QuanLyKho.WebUI\
+build_property.ProjectDir = C:\qlikhoWms\QuanLyKho.WebUI\QuanLyKho.WebUI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Gaming\Downloads\QuanLyKho.API\QuanLyKho.WebUI\QuanLyKho.WebUI
+build_property.MSBuildProjectDirectory = C:\qlikhoWms\QuanLyKho.WebUI\QuanLyKho.WebUI
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Assembly/BOM.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Assembly/BOM.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZW1ibHlcQk9NLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Assembly/Details.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Assembly/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZW1ibHlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Assembly/Index.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Assembly/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZW1ibHlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Inventory/Adjust.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Inventory/Adjust.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XEFkanVzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Inventory/Index.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Inventory/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Inventory/Transactions.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Inventory/Transactions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XFRyYW5zYWN0aW9ucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Inventory/Transfer.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Inventory/Transfer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XFRyYW5zZmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Labor/Add.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Labor/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFib3JcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Labor/Details.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Labor/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFib3JcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Labor/Index.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Labor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFib3JcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Picking/Details.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Picking/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGlja2luZ1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Picking/Index.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Picking/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGlja2luZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/PutAway/Create.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/PutAway/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHV0QXdheVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/PutAway/Details.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/PutAway/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHV0QXdheVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/PutAway/Edit.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/PutAway/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHV0QXdheVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/PutAway/Index.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/PutAway/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHV0QXdheVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Qa/Create.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Qa/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUWFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Qa/Details.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Qa/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUWFcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Qa/Edit.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Qa/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUWFcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Qa/Index.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Qa/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUWFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Receiving/AddLine.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Receiving/AddLine.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZWl2aW5nXEFkZExpbmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Receiving/Create.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Receiving/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZWl2aW5nXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Receiving/Details.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Receiving/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZWl2aW5nXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Receiving/Edit.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Receiving/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZWl2aW5nXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Receiving/EditLine.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Receiving/EditLine.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZWl2aW5nXEVkaXRMaW5lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Receiving/Index.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Receiving/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZWl2aW5nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Replenishment/Create.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Replenishment/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwbGVuaXNobWVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Replenishment/Details.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Replenishment/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwbGVuaXNobWVudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Replenishment/Edit.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Replenishment/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwbGVuaXNobWVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Replenishment/Index.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Replenishment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwbGVuaXNobWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Shared/Error.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Shared/_Header.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Shared/_LayoutDashboard.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Shared/_LayoutDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXREYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/SmartSlotting/Create.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/SmartSlotting/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21hcnRTbG90dGluZ1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/SmartSlotting/Details.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/SmartSlotting/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21hcnRTbG90dGluZ1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/SmartSlotting/Edit.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/SmartSlotting/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21hcnRTbG90dGluZ1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/SmartSlotting/Index.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/SmartSlotting/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21hcnRTbG90dGluZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/_ViewImports.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/_ViewStart.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gaming/Downloads/QuanLyKho.API/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Shared/_Layout.cshtml]
+[C:/qlikhoWms/QuanLyKho.WebUI/QuanLyKho.WebUI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fruiiu1i3z

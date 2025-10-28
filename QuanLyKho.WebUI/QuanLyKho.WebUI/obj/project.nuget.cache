@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "DRepWpDBo6o=",
+  "dgSpecHash": "9wEs9of1mLA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.WebUI\\QuanLyKho.WebUI\\QuanLyKho.WebUI.csproj",
+  "projectFilePath": "C:\\qlikhoWms\\QuanLyKho.WebUI\\QuanLyKho.WebUI\\QuanLyKho.WebUI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Gaming\\.nuget\\packages\\system.io.pipelines\\9.0.10\\system.io.pipelines.9.0.10.nupkg.sha512",
-    "C:\\Users\\Gaming\\.nuget\\packages\\system.net.http.json\\9.0.10\\system.net.http.json.9.0.10.nupkg.sha512",
-    "C:\\Users\\Gaming\\.nuget\\packages\\system.text.encodings.web\\9.0.10\\system.text.encodings.web.9.0.10.nupkg.sha512",
-    "C:\\Users\\Gaming\\.nuget\\packages\\system.text.json\\9.0.10\\system.text.json.9.0.10.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\system.io.pipelines\\9.0.10\\system.io.pipelines.9.0.10.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.net.http.json\\9.0.10\\system.net.http.json.9.0.10.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.text.encodings.web\\9.0.10\\system.text.encodings.web.9.0.10.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.text.json\\9.0.10\\system.text.json.9.0.10.nupkg.sha512"
   ],
   "logs": []
 }

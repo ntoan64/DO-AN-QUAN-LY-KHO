@@ -1,175 +1,169 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\",
+  "WorkspaceRootPath": "C:\\qlikhoWms\\QuanLyKho.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\controllers\\putawaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\controllers\\putawaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\controllers\\assemblycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\controllers\\assemblycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\repositories\\assemblyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\repositories\\assemblyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\repositories\\assemblyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\controllers\\pickingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\controllers\\pickingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\controllers\\pickingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\repositories\\pickingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\repositories\\pickingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\repositories\\pickingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\repositories\\receivingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\controllers\\assemblycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\controllers\\assemblycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\repositories\\receivingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\repositories\\receivingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\controllers\\putawaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\controllers\\putawaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\utils\\hashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\utils\\hashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\utils\\hashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\models\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\models\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\models\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\controllers\\laborcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\controllers\\laborcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\controllers\\laborcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\repositories\\laborrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\repositories\\laborrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\repositories\\laborrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\models\\laborsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\models\\laborsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\models\\laborsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\repositories\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\repositories\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\repositories\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\models\\inventorytransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\models\\inventorytransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\models\\inventorytransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\models\\inventorybalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\models\\inventorybalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\models\\inventorybalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\models\\pickingline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\models\\pickingline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\models\\pickingline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\models\\pickingheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\models\\pickingheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\models\\pickingheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\models\\bomcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\models\\bomcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\models\\bomcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\models\\assemblyline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\models\\assemblyline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\models\\assemblyline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\models\\assemblyheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\models\\assemblyheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\models\\assemblyheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\controllers\\smartslottingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\controllers\\smartslottingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\controllers\\smartslottingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\repositories\\smartslottingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\repositories\\smartslottingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\repositories\\smartslottingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\models\\smartslotting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\models\\smartslotting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\models\\smartslotting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\controllers\\replenishmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\controllers\\replenishmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\controllers\\replenishmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\repositories\\replenishmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\repositories\\replenishmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\repositories\\replenishmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\models\\replenishmenttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\models\\replenishmenttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\models\\replenishmenttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\models\\warehouselocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\models\\warehouselocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\models\\warehouselocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\models\\receivingline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\models\\receivingline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\models\\receivingline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\models\\receivingheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\models\\receivingheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\models\\receivingheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\repositories\\putawayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\repositories\\putawayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\repositories\\putawayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\models\\putawaytask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\models\\putawaytask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\models\\putawaytask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\controllers\\qacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\controllers\\qacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\controllers\\qacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\repositories\\qarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\repositories\\qarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\repositories\\qarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\models\\qarecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\models\\qarecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\models\\qarecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\controllers\\receivingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\controllers\\receivingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\controllers\\receivingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\users\\gaming\\downloads\\quanlykho.api\\quanlykho.api\\quanlykho.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|c:\\qlikhowms\\quanlykho.api\\quanlykho.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6A1CA898-25A5-4E75-AC8C-E8B91342D665}|QuanLyKho.API\\QuanLyKho.API.csproj|solutionrelative:quanlykho.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -180,106 +174,76 @@
       "DocumentGroups": [
         {
           "DockedHeight": 385,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Microsoft.NET.EolTargetFrameworks.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAqwB8AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-10-28T05:31:30.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Microsoft.PackageDependencyResolution.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ViewState": "AgIAAPIAAAAAAAAAAAAqwBYBAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-10-28T05:31:14.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Properties\\launchSettings.json",
               "RelativeToolTip": "QuanLyKho.API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAUAAAAAAAAAAAAYwCcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-27T04:16:06.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Program.cs",
-              "RelativeDocumentMoniker": "QuanLyKho.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Program.cs",
-              "RelativeToolTip": "QuanLyKho.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T04:09:00.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AssemblyController.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\AssemblyController.cs",
-              "RelativeDocumentMoniker": "QuanLyKho.API\\Controllers\\AssemblyController.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\AssemblyController.cs",
-              "RelativeToolTip": "QuanLyKho.API\\Controllers\\AssemblyController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T03:30:07.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PutAwayController.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\PutAwayController.cs",
-              "RelativeDocumentMoniker": "QuanLyKho.API\\Controllers\\PutAwayController.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\PutAwayController.cs",
-              "RelativeToolTip": "QuanLyKho.API\\Controllers\\PutAwayController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T03:15:42.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T04:16:06.984Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Program.cs",
+              "RelativeDocumentMoniker": "QuanLyKho.API\\Program.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Program.cs",
+              "RelativeToolTip": "QuanLyKho.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T04:09:00.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssemblyController.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\AssemblyController.cs",
+              "RelativeDocumentMoniker": "QuanLyKho.API\\Controllers\\AssemblyController.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\AssemblyController.cs",
+              "RelativeToolTip": "QuanLyKho.API\\Controllers\\AssemblyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T03:30:07.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PutAwayController.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\PutAwayController.cs",
+              "RelativeDocumentMoniker": "QuanLyKho.API\\Controllers\\PutAwayController.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\PutAwayController.cs",
+              "RelativeToolTip": "QuanLyKho.API\\Controllers\\PutAwayController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T03:15:42.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AssemblyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\AssemblyRepository.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\AssemblyRepository.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Repositories\\AssemblyRepository.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\AssemblyRepository.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\AssemblyRepository.cs",
               "RelativeToolTip": "QuanLyKho.API\\Repositories\\AssemblyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAwEAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T03:29:57.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "PickingController.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\PickingController.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\PickingController.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Controllers\\PickingController.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\PickingController.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\PickingController.cs",
               "RelativeToolTip": "QuanLyKho.API\\Controllers\\PickingController.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAswDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -287,11 +251,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "ReceivingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\ReceivingRepository.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\ReceivingRepository.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Repositories\\ReceivingRepository.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\ReceivingRepository.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\ReceivingRepository.cs",
               "RelativeToolTip": "QuanLyKho.API\\Repositories\\ReceivingRepository.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAgwEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -299,11 +263,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "PickingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\PickingRepository.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\PickingRepository.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Repositories\\PickingRepository.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\PickingRepository.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\PickingRepository.cs",
               "RelativeToolTip": "QuanLyKho.API\\Repositories\\PickingRepository.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAwGQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -311,11 +275,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "QuanLyKho.API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -323,11 +287,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "HashHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Utils\\HashHelper.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Utils\\HashHelper.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Utils\\HashHelper.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Utils\\HashHelper.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Utils\\HashHelper.cs",
               "RelativeToolTip": "QuanLyKho.API\\Utils\\HashHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -335,11 +299,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "UserAccount.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\UserAccount.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\UserAccount.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Models\\UserAccount.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\UserAccount.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\UserAccount.cs",
               "RelativeToolTip": "QuanLyKho.API\\Models\\UserAccount.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -347,11 +311,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "LaborController.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\LaborController.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\LaborController.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Controllers\\LaborController.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\LaborController.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\LaborController.cs",
               "RelativeToolTip": "QuanLyKho.API\\Controllers\\LaborController.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAgwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -359,11 +323,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "LaborRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\LaborRepository.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\LaborRepository.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Repositories\\LaborRepository.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\LaborRepository.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\LaborRepository.cs",
               "RelativeToolTip": "QuanLyKho.API\\Repositories\\LaborRepository.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAgwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -371,11 +335,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
               "Title": "LaborSummary.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\LaborSummary.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\LaborSummary.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Models\\LaborSummary.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\LaborSummary.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\LaborSummary.cs",
               "RelativeToolTip": "QuanLyKho.API\\Models\\LaborSummary.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -383,11 +347,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
               "Title": "InventoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\InventoryController.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\InventoryController.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Controllers\\InventoryController.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\InventoryController.cs",
               "RelativeToolTip": "QuanLyKho.API\\Controllers\\InventoryController.cs",
               "ViewState": "AgIAAGYAAAAAAAAAAAAgwIoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -395,11 +359,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 15,
               "Title": "InventoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\InventoryRepository.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\InventoryRepository.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Repositories\\InventoryRepository.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\InventoryRepository.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\InventoryRepository.cs",
               "RelativeToolTip": "QuanLyKho.API\\Repositories\\InventoryRepository.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAgwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -407,11 +371,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 16,
               "Title": "InventoryTransaction.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\InventoryTransaction.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\InventoryTransaction.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Models\\InventoryTransaction.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\InventoryTransaction.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\InventoryTransaction.cs",
               "RelativeToolTip": "QuanLyKho.API\\Models\\InventoryTransaction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -419,11 +383,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 17,
               "Title": "InventoryBalance.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\InventoryBalance.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\InventoryBalance.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Models\\InventoryBalance.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\InventoryBalance.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\InventoryBalance.cs",
               "RelativeToolTip": "QuanLyKho.API\\Models\\InventoryBalance.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -431,11 +395,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 18,
               "Title": "PickingLine.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\PickingLine.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\PickingLine.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Models\\PickingLine.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\PickingLine.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\PickingLine.cs",
               "RelativeToolTip": "QuanLyKho.API\\Models\\PickingLine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -443,11 +407,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 19,
               "Title": "PickingHeader.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\PickingHeader.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\PickingHeader.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Models\\PickingHeader.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\PickingHeader.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\PickingHeader.cs",
               "RelativeToolTip": "QuanLyKho.API\\Models\\PickingHeader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -455,11 +419,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 20,
               "Title": "BOMComponent.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\BOMComponent.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\BOMComponent.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Models\\BOMComponent.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\BOMComponent.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\BOMComponent.cs",
               "RelativeToolTip": "QuanLyKho.API\\Models\\BOMComponent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -467,11 +431,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "AssemblyLine.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\AssemblyLine.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\AssemblyLine.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Models\\AssemblyLine.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\AssemblyLine.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\AssemblyLine.cs",
               "RelativeToolTip": "QuanLyKho.API\\Models\\AssemblyLine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -479,11 +443,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 22,
               "Title": "AssemblyHeader.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\AssemblyHeader.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\AssemblyHeader.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Models\\AssemblyHeader.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\AssemblyHeader.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\AssemblyHeader.cs",
               "RelativeToolTip": "QuanLyKho.API\\Models\\AssemblyHeader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -491,11 +455,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 23,
               "Title": "SmartSlottingController.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\SmartSlottingController.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\SmartSlottingController.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Controllers\\SmartSlottingController.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\SmartSlottingController.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\SmartSlottingController.cs",
               "RelativeToolTip": "QuanLyKho.API\\Controllers\\SmartSlottingController.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAgwG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -503,11 +467,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 24,
               "Title": "SmartSlottingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\SmartSlottingRepository.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\SmartSlottingRepository.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Repositories\\SmartSlottingRepository.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\SmartSlottingRepository.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\SmartSlottingRepository.cs",
               "RelativeToolTip": "QuanLyKho.API\\Repositories\\SmartSlottingRepository.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -515,11 +479,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 25,
               "Title": "SmartSlotting.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\SmartSlotting.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\SmartSlotting.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Models\\SmartSlotting.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\SmartSlotting.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\SmartSlotting.cs",
               "RelativeToolTip": "QuanLyKho.API\\Models\\SmartSlotting.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -527,11 +491,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 26,
               "Title": "ReplenishmentController.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\ReplenishmentController.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\ReplenishmentController.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Controllers\\ReplenishmentController.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\ReplenishmentController.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\ReplenishmentController.cs",
               "RelativeToolTip": "QuanLyKho.API\\Controllers\\ReplenishmentController.cs",
               "ViewState": "AgIAAE4AAAAAAAAAAAAgwHIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -539,11 +503,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 27,
               "Title": "ReplenishmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\ReplenishmentRepository.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\ReplenishmentRepository.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Repositories\\ReplenishmentRepository.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\ReplenishmentRepository.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\ReplenishmentRepository.cs",
               "RelativeToolTip": "QuanLyKho.API\\Repositories\\ReplenishmentRepository.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAgwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -551,11 +515,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 28,
               "Title": "ReplenishmentTask.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\ReplenishmentTask.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\ReplenishmentTask.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Models\\ReplenishmentTask.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\ReplenishmentTask.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\ReplenishmentTask.cs",
               "RelativeToolTip": "QuanLyKho.API\\Models\\ReplenishmentTask.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -563,11 +527,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 33,
               "Title": "PutAwayRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\PutAwayRepository.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\PutAwayRepository.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Repositories\\PutAwayRepository.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\PutAwayRepository.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\PutAwayRepository.cs",
               "RelativeToolTip": "QuanLyKho.API\\Repositories\\PutAwayRepository.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAgwE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -575,11 +539,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 34,
               "Title": "PutAwayTask.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\PutAwayTask.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\PutAwayTask.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Models\\PutAwayTask.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\PutAwayTask.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\PutAwayTask.cs",
               "RelativeToolTip": "QuanLyKho.API\\Models\\PutAwayTask.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -587,11 +551,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 35,
               "Title": "QaController.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\QaController.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\QaController.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Controllers\\QaController.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\QaController.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\QaController.cs",
               "RelativeToolTip": "QuanLyKho.API\\Controllers\\QaController.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAAAgwIUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -599,11 +563,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 32,
               "Title": "Supplier.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\Supplier.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\Supplier.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Models\\Supplier.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\Supplier.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\Supplier.cs",
               "RelativeToolTip": "QuanLyKho.API\\Models\\Supplier.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -611,11 +575,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 31,
               "Title": "ReceivingHeader.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\ReceivingHeader.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\ReceivingHeader.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Models\\ReceivingHeader.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\ReceivingHeader.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\ReceivingHeader.cs",
               "RelativeToolTip": "QuanLyKho.API\\Models\\ReceivingHeader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -623,11 +587,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 30,
               "Title": "ReceivingLine.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\ReceivingLine.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\ReceivingLine.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Models\\ReceivingLine.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\ReceivingLine.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\ReceivingLine.cs",
               "RelativeToolTip": "QuanLyKho.API\\Models\\ReceivingLine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -635,11 +599,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 29,
               "Title": "WarehouseLocation.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\WarehouseLocation.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\WarehouseLocation.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Models\\WarehouseLocation.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\WarehouseLocation.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\WarehouseLocation.cs",
               "RelativeToolTip": "QuanLyKho.API\\Models\\WarehouseLocation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -647,11 +611,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 36,
               "Title": "QARepository.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\QARepository.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\QARepository.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Repositories\\QARepository.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\QARepository.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Repositories\\QARepository.cs",
               "RelativeToolTip": "QuanLyKho.API\\Repositories\\QARepository.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAgwEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -659,11 +623,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 37,
               "Title": "QARecord.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\QARecord.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\QARecord.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Models\\QARecord.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Models\\QARecord.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Models\\QARecord.cs",
               "RelativeToolTip": "QuanLyKho.API\\Models\\QARecord.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -671,11 +635,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 38,
               "Title": "ReceivingController.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\ReceivingController.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\ReceivingController.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Controllers\\ReceivingController.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\ReceivingController.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Controllers\\ReceivingController.cs",
               "RelativeToolTip": "QuanLyKho.API\\Controllers\\ReceivingController.cs",
               "ViewState": "AgIAALEAAAAAAAAAAAA8wMMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -683,11 +647,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 39,
               "Title": "DatabaseContext.cs",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Data\\DatabaseContext.cs",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Data\\DatabaseContext.cs",
               "RelativeDocumentMoniker": "QuanLyKho.API\\Data\\DatabaseContext.cs",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\Data\\DatabaseContext.cs",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\Data\\DatabaseContext.cs",
               "RelativeToolTip": "QuanLyKho.API\\Data\\DatabaseContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -695,15 +659,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 40,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\appsettings.json",
+              "DocumentMoniker": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\appsettings.json",
               "RelativeDocumentMoniker": "QuanLyKho.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\Gaming\\Downloads\\QuanLyKho.API\\QuanLyKho.API\\QuanLyKho.API\\appsettings.json",
+              "ToolTip": "C:\\qlikhoWms\\QuanLyKho.API\\QuanLyKho.API\\appsettings.json",
               "RelativeToolTip": "QuanLyKho.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-10-27T02:51:30.949Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
